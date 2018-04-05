@@ -1,7 +1,7 @@
 <?php
 
 // Class declaration 
-// Use camecase to create class [ex. Tv, SmartTv, UltraHdTv]
+// Use camelcase to create class [ex. Tv, SmartTv, UltraHdTv]
 class Tv{
 	
 	// All veriables in class called Data-members or Attributes
@@ -10,7 +10,7 @@ class Tv{
 
 	// construct is magic function in php and this functions always start with __
 	// constuct is function which gets exeucuted when we create object of a class.
-	// two parameters are passed to the contruct function namely $m, $v
+	// two parameters are passed to the construct function namely $m, $v
 	function __construct($m, $v){
 		// use $this keyword to access the variable which is declared outside of this function
 		$this->model = $m;
@@ -31,11 +31,11 @@ class Tv{
 }
 
 
-// Create an object of Tv class and pass the values to contructor
+// Create an object of Tv class and pass the values to constructor
 $tv_one = new Tv('abc', 1);
 $tv_two = new Tv('4k', 1);
 
-// Accessing the class variables object
+// Accessing the class variables using object
 echo $tv_one->model."<br>";
 
 
