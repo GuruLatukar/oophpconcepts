@@ -9,7 +9,7 @@ class Tv{
 	public $volume;
 
 	// construct is magic function in php and this functions always start with __
-	// constuct is function which gets exeucuted when we create object of a class.
+	// construct is function which gets exeucuted when we create object of a class.
 	// two parameters are passed to the construct function namely $m, $v
 	function __construct($m, $v){
 		// use $this keyword to access the variable which is declared outside of this function
