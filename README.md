@@ -1,0 +1,4 @@
+# OOPHP CONCEPTS
+
+* Inheritance  
+* Overriding
