@@ -56,7 +56,7 @@ class SmartTv extends Tv{
 
 	// if you have function in parent class and create function with same name child class then it will orride the parent function.
 	function volumeUp(){
-		return $this->volume=$this->volume+5;
+		return $this->volume+5;
 	}
 }
 

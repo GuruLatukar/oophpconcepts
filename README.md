@@ -2,3 +2,4 @@
 
 * Inheritance  
 * Overriding
+* Encapsulation
