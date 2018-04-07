@@ -26,7 +26,7 @@ class FullTimeEmployee extends BaseClass{
 	
 	protected $annualSalary;
 
-	// Implementing abstract class
+	// Implementing abstract method
 	public function getMonthlySalary(){
 		return $this->annualSalary / 12;
 	}
@@ -37,7 +37,7 @@ class ContractEmployee extends BaseClass{
 	protected $hourlyRate;
 	protected $TotalHours;
 
-	// Implementing abstract class
+	// Implementing abstract method
 	public function getMonthlySalary(){
 		return $this->hourlyRate * $this->TotalHours;
 	}
